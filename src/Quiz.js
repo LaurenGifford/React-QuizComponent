@@ -16,7 +16,7 @@ class Quiz extends React.Component {
         })
     }
 
-    handleresetClick() {
+    handleResetClick() {
         this.setState((state) => {
             return {quiz_position: 1}
         })
