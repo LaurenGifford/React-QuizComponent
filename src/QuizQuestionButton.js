@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-class QuizQuestion extends React.Component {
+class QuizQuestionButton extends React.Component {
     constructor(props) {
         super(props)
     }
@@ -10,7 +10,6 @@ class QuizQuestion extends React.Component {
             <main>
                 <section>
                 <p>{this.props.quiz_question.instruction_text} </p>
-                {/* <p>{this.props.instruction_text} </p> */}
                 </section>
                 <section className="buttons">
                 <ul>
@@ -22,4 +21,4 @@ class QuizQuestion extends React.Component {
     }
 }
 
-export default QuizQuestion
+export default QuizQuestionButton
